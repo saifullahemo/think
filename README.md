@@ -1,10 +1,3 @@
-# blank-nunjucks-template
-
-***********************
-Blank Nunjucks Template
-***********************
-
-
 Features installed
 •••••••••••••••••••
 1. Bootstrap v4.1.0
