@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Think</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=0.25, shrink-to-fit=yes">
+    <meta name="theme-color" content="#14609d"/>
+    <!-- SOCIAL Meta Tags Start-->
+    <meta name="keywords" content=""/>
+    <meta name="title" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="/library/img/logo.png"/>
+    <meta property="og:url" content="https://www.example.com"/>
+    <!-- SOCIAL Meta Tags End-->
+
+    <!-- Fonts and CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/library/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/library/css/style.css"/>
+
+    <!--Icons-->
+    <link rel="icon" href="/library/img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/library/img/favicon.png">
+  </head>
+
+  <body>
+            {% include "../Templates/navbar.html" %}
+
+    <div class="page-wrapper" id="content" role="main">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <!-- Content -->
+              {% block content %}
+            
+              {% endblock %}
+
+          </div>
+        </div>
+
+        <!-- Footer-->
+        <section class="contact">
+        <footer class="footer-section">
+          {# <div class="col-12" align="center"> #}
+            {% include "../UserControls/MenuControls/contact.html" %}
+          {# </div> #}
+        </footer>
+         </section>
+      </div>
+    </div>
+
+  
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="/library/js/vendor/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="/library/js/vendor/jquery.datetimepicker.full.min.js"></script> -->
+    <!-- mainES6.js == debug file. main,js == production-->
+    <!-- <script src="/library/js/vendor/datatables.min.js"></script> -->
+    <script src="/library/js/filter-tags.js"></script>
+    <script src="/library/js/main.js"></script>
+  </body>
+
+</html>

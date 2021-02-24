@@ -1,0 +1,30 @@
+{% set hide_dash = 1 %}
+
+{% extends "../MasterPages/master.html" %}
+
+{% block content %}
+
+  {# ---------- #}
+  {# Login Page #}
+  {# ---------- #}
+  <div id="login-page" class="text-center" cz-shortcut-listen="true">
+
+    <div class="col-12 floating-header"></div>
+    <form class="col-12 form-signin">
+      <div class="signin-box bg-white">
+        <h3 class="mb-4 mt-0">Login</h3>
+        <input type="email" id="inputEmail" class="form-control bg-light py-3" placeholder="Username" required="" autofocus="">
+        <input type="password" id="inputPassword" class="form-control bg-light py-3" placeholder="Password" required="">
+        <div class="checkbox mb-3">
+          <label class="text-muted"><input type="checkbox" value="remember-me"> Remember me</label>
+        </div>
+        <a href="dashboard.html" class="btn btn-lg btn-primary btn-block font-weight-bold py-3">Sign in</a>
+        <p class="mt-5 mb-3 text-muted">ARITS Limited © 2019</p>
+      </div>
+    </form>
+    <div class="col-12 floating-footer" align="center">
+      <img src="/library/img/altd-logo.svg" alt="ARITS Limited">
+    </div>
+
+  </div>
+{% endblock %}
